@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter - No More Confusion v1.0.0</title>
+    <meta
+      name="description"
+      content="Convert Celsius to Fahrenheit instantly. Ever heard 'it's 100 degrees' and got confused? This fixes it."
+    />
+
+    <!-- Color for phone top bar -->
+    <meta name="theme-color" content="#7c3aed" />
+
+    <!-- WhatsApp / Twitter preview -->
+    <meta property="og:title" content="Temp Converter" />
+    <meta
+      property="og:description"
+      content="Simple, fast Celsius ↔ Fahrenheit converter"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="degrees_fahrenheit_converter.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">Temperature Converter</h1>
+    </header>
+    <div class="motivational-box">
+      <p class="motivational-text">
+        Ever heard
+        <span> &#10077; its over a hundred degrees &#10078; </span> and got
+        confused? This fixes it.
+      </p>
+    </div>
+    <div class="flex">
+      <input placeholder="Enter Value in ⁰F" type="number" id="input1" />
+      <div class="result-display">
+        <p id="result1">Result in ⁰C Will show here</p>
+      </div>
+
+      <input placeholder="Enter Value in ⁰C" type="number" id="input2" />
+      <div class="result-display">
+        <p id="result2">Result in ⁰F will show here</p>
+      </div>
+    </div>
+
+    <script src="degrees_fahrenheit_converter.js"></script>
+  </body>
+  </html>
+  
