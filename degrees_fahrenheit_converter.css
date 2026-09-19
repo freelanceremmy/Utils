@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+input {
+  width: 70%;
+  padding: 18px 12px 18px 12px;
+  outline: none;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border: 1px solid #17bebb;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #88ff6fff;
+}
+
+.motivational-text {
+  color: #ffffff;
+  text-align: center;
+  max-width: 45ch;
+  line-height: 1.8;
+  font-size: 2ch;
+}
+
+header {
+  background-color: #6e44ff;
+  padding: 15px;
+}
+
+.motivational-box {
+  background: #ff90b3;
+  padding: 20px;
+  width: 50%;
+  border: 1ox groove blue;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  justify-content: center;
+  align-items: center;
+}
+
+div span {
+  display: block;
+  color: #88ff6fff;
+  /*color: #b892ff;*/
+}
+
+.result-display {
+  width: 70%;
+  height: 30%;
+  padding: 2ch;
+  background-color: #6e44ff;
+  color: white;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.result-display p {
+  text-align: center;
+  color: white;
+  font-family: Arial;
+}
